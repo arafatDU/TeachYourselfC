@@ -1,15 +1,15 @@
 #include<stdio.h>
 
-void sqr_it( int num );
+void outchar(char ch);
 
-int main() {
-
-	sqr_it(10.0);
+int main(void) {
+	outchar('A');
+	outchar('B');
+	outchar('C');
 
 	return 0;
 }
 
-void sqr_it (int num) {
-
-	printf("Square: %d\n", num*num);
+void outchar(char ch) {
+	printf("%c", ch);
 }
